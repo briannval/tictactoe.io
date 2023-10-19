@@ -64,6 +64,15 @@ span{
   border: 4px solid#61dafb;
 }
 
+h3{
+  font-family: 'Pixelify Sans';
+  color: #61dafb;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+
+
 .container{
   width: 300px;
   display: flex;
