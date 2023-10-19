@@ -27,15 +27,46 @@ span{
 
 .reset{
   background-color: #282c34;
-  border-radius: 30%;
+  border-radius: 50%;
   border-color: #61dafb;
   border-width: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 50px;
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
 }
 
 .textreset{
   font-family: 'Pixelify Sans';
   font-size: 20px;
   color: #61dafb;
+}
+
+/*
+.e{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #282c34;
+  border: 4px solid #61dafb;
+}
+*/
+
+.b{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.box{
+  border: 4px solid#61dafb;
+}
+
+.container{
+  width: 300px;
+  display: flex;
+  margin: auto;
+  text-align: center;
 }
